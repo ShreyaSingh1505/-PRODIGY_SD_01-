@@ -36,7 +36,7 @@ def clear_fields():
 
 # GUI Setup
 root = tk.Tk()
-root.title("🌡️ Temperature Converter")
+root.title(" Temperature Converter")
 root.geometry("400x300")
 root.configure(bg="#f0f8ff")
 root.resizable(False, False)
@@ -72,3 +72,4 @@ tk.Label(root, textvariable=result, font=("Arial", 12, "bold"), fg="#003366", bg
 root.bind('<Return>', lambda event: convert_temperature())
 
 root.mainloop()
+
